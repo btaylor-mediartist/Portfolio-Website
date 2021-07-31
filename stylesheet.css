@@ -1,0 +1,67 @@
+body {
+  background-color: #222;
+  font-family: "Courier", monospace;
+}
+
+.filler {
+  color: #222;
+}
+
+.test {
+  color: blue;
+  transform: rotate(30, 20, 40);
+}
+
+svg{
+  transform: scale(2);
+  transform: translate(10em, 5em);
+  /*background-color: grey;*/
+  text-align: center;
+  fill: red;
+  transform: scale(2);
+
+}
+
+#dd {
+  margin: 0px;
+  padding: 0px;
+}
+
+.onwards {
+  position: fixed;
+  transform: scale(0.2);
+  transform-origin: right;
+  width: width;
+
+  transition: position 10s, transform-origin 5s;
+}
+
+.onwards:hover {
+  position:center;
+  transform-origin: left;
+}
+
+.indextext{
+  font-size: 2vw;
+}
+
+#box{
+  position: relative;
+  height: height;
+  width: width;
+  transition: background-color 3s;
+}
+
+#box:hover{
+  background-color: white;
+}
+
+#myname{
+  /*background: red;*/
+  transition: transform 2s;
+  transform: rotate(-180deg);
+}
+
+  #myname:hover {
+  transform: rotate(0deg);
+  }
