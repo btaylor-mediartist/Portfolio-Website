@@ -3,6 +3,22 @@ body {
   font-family: "Courier", monospace;
 }
 
+.list{
+  color: white;
+  margin: 2vw;
+  padding-top: 2vw;
+}
+
+li{
+  margin: 1vw;
+  padding-left: 2vw;
+  font-weight: lighter;
+}
+
+ul{
+  font-weight: bold;
+}
+
 .filler {
   color: #222;
 }
@@ -12,19 +28,65 @@ body {
   transform: rotate(30, 20, 40);
 }
 
+.header{
+  transform: scale(2);
+  transform: scale(2);
+  font-size: 5vw;
+  margin-left: 3vw;
+  padding-top: 3vw;
+  color: white;
+}
+
+a:link{
+  color: red;
+  text-decoration: none;
+}
+
+a:visited{
+  color: red;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+a:active{
+  color: red;
+  text-decoration: none;
+}
+
+.indextext{
+  font-size: 3vw;
+}
+
 svg{
   transform: scale(2);
-  transform: translate(10em, 5em);
   /*background-color: grey;*/
   text-align: center;
   fill: red;
-  transform: scale(2);
+  width: 43vw;
+  height: auto;
+}
 
+p{
+  color: white;
 }
 
 #dd {
-  margin: 0px;
-  padding: 0px;
+  margin: 3vw;
+  padding: 3vw;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 3vw;
+}
+
+.item{
+  text-align: left;
 }
 
 .onwards {
@@ -41,15 +103,12 @@ svg{
   transform-origin: left;
 }
 
-.indextext{
-  font-size: 2vw;
-}
-
 #box{
   position: relative;
   height: height;
   width: width;
   transition: background-color 3s;
+  margin: 3vw;
 }
 
 #box:hover{
@@ -60,8 +119,10 @@ svg{
   /*background: red;*/
   transition: transform 2s;
   transform: rotate(-180deg);
+  margin: 5vw;
 }
 
   #myname:hover {
   transform: rotate(0deg);
+  margin: 3vw;
   }
